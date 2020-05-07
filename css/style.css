@@ -1,0 +1,56 @@
+
+
+.sectioncontacto{
+    background-color: green;
+}
+
+
+input {
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+textarea{
+    width: 80%;
+    height: 100px;
+}
+button{
+    width: 20%;
+    background-color: blue;
+    color: white;
+}
+
+
+
+
+.cuadrado{
+    left:25px;   
+    background: rgba(114, 153, 254, 0.5);
+}
+
+img{
+    height: 25%;
+    left: 0px;
+    top:0px;
+}
+
+div{
+    margin-right: 200px;
+}
+
+h1 {
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    left:60%;
+    top:10px;
+}
+
+
+
+
+
+
+
+
