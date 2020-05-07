@@ -4,56 +4,61 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mi portafolio</title>
-    <LINK REL=StyleSheet HREF="./css/style.css" TYPE="text/css">
+    <link rel="StyleSheet" href="./css/style.css" type="text/css" />
   </head>
   <body>
     <main>
       <!--BANNER-->
-      <section>
-        <img src="./images/banner.png" alt="Mi imagen personal" />
-        <h1>codiGO</h1>
-        <h2>Hola, mi nombre es Sebastian Yabiku</h2>
+      <section class="section1">
+        <div class="contenedor">
+          <h1>codiGO</h1>
+          <h2>Hola, mi nombre es Sebastian Yabiku</h2>
+        </div>
       </section>
+
       <!--MY SKILLS-->
-      <section>
+      <section class="section2">
         <h2>My skills</h2>
-        <div>
+        <div class="contenedor2">
           <div>
-            <div>
+            <div class="columna">
               <h3>Html</h3>
               <div>
-                <div></div>
+                <div>
+                  <img class="debajo" src="./images/RectangleBlanco.png"/>
+                  <img class="encima" src="./images/Rectangle1.png"/>
+                </div>
               </div>
             </div>
-            <div>
+            <div class="columna">
               <h3>Javascript</h3>
               <div>
-                <div></div>
+                <div>figura</div>
               </div>
             </div>
           </div>
           <div>
-            <div>
+            <div class="columna">
               <h3>CSS</h3>
               <div>
-                <div></div>
+                <div>figura</div>
               </div>
             </div>
-            <div>
+            <div class="columna">
               <h3>React</h3>
               <div>
-                <div></div>
+                <div>figura</div>
               </div>
             </div>
           </div>
           <div>
-            <div>
+            <div class="columna">
               <h3>Angular</h3>
               <div>
                 <div></div>
               </div>
             </div>
-            <div>
+            <div class="columna">
               <h3>Python</h3>
               <div>
                 <div></div>
@@ -61,16 +66,16 @@
             </div>
           </div>
           <div>
-            <div>
+            <div class="columna">
               <h3>Figma</h3>
               <div>
-                <div></div>
+                <div>Figura</div>
               </div>
             </div>
-            <div>
+            <div class="columna">
               <h3>Node.js</h3>
               <div>
-                <div></div>
+                <div>Figura</div>
               </div>
             </div>
           </div>
@@ -134,12 +139,12 @@
       <section class="sectioncontacto">
         <h3>Contacto</h3>
         <form>
-                <input type="text" placeholder="Nombre" />
-                <input type="text" placeholder="Apellido" />
-                <input type="email" placeholder="Correo" name="email">
-                <input type="text"placeholder="telefono" />
-              <textarea placeholder="Descripcion"> </textarea>
-              <button>Enviar</button>   
+          <input type="text" placeholder="Nombre" />
+          <input type="text" placeholder="Apellido" />
+          <input type="email" placeholder="Correo" name="email" />
+          <input type="text" placeholder="telefono" />
+          <textarea placeholder="Descripcion"> </textarea>
+          <button>Enviar</button>
         </form>
       </section>
     </main>

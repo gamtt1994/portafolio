@@ -1,53 +1,92 @@
-
-
-.sectioncontacto{
-    background-color: green;
+/* INICIO ESTILO BANNER */
+.section1{
+    background: url(/images/banner.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
 }
 
+.contenedor{
+    padding: 0px 0;
+    width: 90%;
+    max-height: 10%;
+    margin: auto;
+    overflow: hidden;
 
-input {
-    margin-top: 10px;
-    margin-right: 50px;
-    margin-left: 10px;
-    margin-bottom: 10px;
 }
-textarea{
-    width: 80%;
-    height: 100px;
+
+.contenedor h1{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30%;
+    
 }
-button{
-    width: 20%;
+
+.contenedor h2{
+    color: white;
     background-color: blue;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 0 px;
+    margin-bottom: 100px;
+    margin-left: 10%;
+    margin-right: 70%;
+    overflow: hidden;
+}
+
+.contenedor img{
+    width: auto;
+}
+
+/* FIN ESTILO BANNER */
+
+/* INICIO ESTILO SKILL */
+.section2{
+    background: #7299FE;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.section2 h2{
+    text-align: center;
     color: white;
+    font-size: 20px;
 }
 
 
+.contenedor2 {
+    padding: 0px 0;
+    width: 90%;
+    max-height: 10%;
+    margin: auto;
+    overflow: hidden;
+    text-align: left;
 
-
-.cuadrado{
-    left:25px;   
-    background: rgba(114, 153, 254, 0.5);
 }
 
-img{
-    height: 25%;
-    left: 0px;
-    top:0px;
-}
+.contenedor2 .columna {
+    
+    float: left;
+    width: 28%;
+    height: 100px;
+    background-color: blue;
+    border:1px solid black;
+    padding: 10px;
+    margin-left: 20%;
+    margin-top: 2%;
+  }
 
-div{
-    margin-right: 200px;
-}
+  .contenedor2 .img .debajo{
+      position: relative;
+  }
 
-h1 {
+  
+  .contenedor2 .img .encima{
     position: absolute;
-    color: white;
-    font-size: 50px;
-    left:60%;
-    top:10px;
 }
-
-
 
 
 
